@@ -1,0 +1,20 @@
+FPDF SETUP INSTRUCTIONS
+=======================
+
+FPDF is a free PHP library for generating PDFs. You need to download it manually.
+
+Steps:
+1. Go to: http://www.fpdf.org  (or search "FPDF PHP download")
+2. Download FPDF 1.84
+3. Extract the zip
+4. Copy the file "fpdf.php" into this folder:  vaultx/lib/fpdf.php
+
+That's it. The receipt.php will work immediately after.
+
+Alternatively, if you have Composer installed, run:
+   composer require setasign/fpdf
+
+Then update the require line in receipt.php to:
+   require_once 'vendor/autoload.php';
+
+Download link: http://www.fpdf.org/en/dl.php?v=184&f=zip
